@@ -1,0 +1,65 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000;
+}
+
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+
+
+.content-table thead tr{
+    text-align: left;
+    font-weight: lighter;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+
+}
+
+.content-table tbody td{
+    font-weight: bold;
+}
+
+.content-table th, .content-table td{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+
+.content-table tbody tr{
+    background-color: #ff7720;
+}
+
+.content-table th{
+    background-color: #ff7720;
+}
+.colone{
+    background-color: black;
+    color: white;
+}
+
+.content-table thead tr .colone{
+    background-color: black;
+}
+
+
+.content-table{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 350px;
+    bottom: 150px;
+}
